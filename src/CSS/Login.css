@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-image: url('../img/pietro-tebaldi-UNZZaAUlGzo-unsplash.jpg');
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.loginform {
+    max-width: 400px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.loginform p {
+    font-size: large;
+}
+
+.loginform input {
+    height: 30px;
+    width: 375px;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+
+.alert {
+    color: red;
+}
+
+.info {
+    color: red;
+    padding: 10px 0;
+}
+
+.buttonLogin {
+    padding: 7px 30px;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: rgb(11, 238, 11);
+}
+
+.create {
+    color: red;
+    text-decoration: none;
+}
+
+.button {
+    position: relative;
+    padding-left: 15px;
+}
+
+.buttonLogin {
+    height: 30px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.header {
+    padding: 20px 0;
+}

@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,700&display=swap');
+
+
+.taskRow{
+    display: inline-block;
+    width: 50%;
+    height: fit-content;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+.taskRow-low{
+    background-image: linear-gradient(to right, #d9d9d9 , #ffffff);
+}
+.taskRow-med{
+    background-image: linear-gradient(to right, #00c2cb , #5ce1e6);
+}
+.taskRow-high{
+    background-image: linear-gradient(to right, #8c52ff , #cb6ce6);
+}
+
+.taskName{
+    display: inline-block;
+    width: 55%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    margin: 10px;
+    text-align: left;
+    overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+
+.taskTime{
+    display: inline-block;
+    width: 22%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    text-align: left;
+}
+
+.edit-button{
+    display: inline-block;
+    width: 50%;
+    cursor: pointer;
+}
+
+.delete-button{
+    display: inline-block;
+    width: 50%;
+    cursor: pointer;
+}
+
+.clock{
+    display: inline-block;
+    width: 33%;
+    cursor: grab;
+}
+
+.icon{
+    display: inline-block;
+    width: 15%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    cursor: none;
+}
+
+h1 {
+    font-family: 'Crimson Text', serif;
+    font-size: 48px;
+    text-align: center;
+    margin: 30px;
+}
+
+.taskList {
+    text-align: center;
+}
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+  }
+
+.add-task {
+    width: 50%;
+    margin: auto;
+}
+
+.search {
+    width: 30%;
+    margin: auto;
+}
+
+.input-center {
+    text-align: center;
+    margin: 20px;
+}
+
+.choose-button{
+    margin: 5px;
+}
+
+.sort-choose-container{
+    text-align: center;
+}
+
+.detail-box{
+    display: inline-block;
+    width: 50%;
+    height: fit-content;
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
+}
+
+.task-property{
+    font-weight: bold;
+}
